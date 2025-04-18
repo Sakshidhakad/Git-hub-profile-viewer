@@ -1,0 +1,97 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+.main{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+#image{
+    width: 250px;
+    border-radius: 50%;
+   
+
+}
+.secondDiv{
+    display: flex;
+    background-color:rgba(208, 250, 215, 0.925);
+    width: 50%;
+    padding: 20px;
+    min-height: 50%;
+    text-align: center;
+    border-radius: 20px;
+}
+
+.follower{
+    display: flex;
+    width: 100%;
+    justify-content:space-around;
+}
+.userInfo{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+.userDetail{
+    font-size: 20px;
+    text-align: center;
+}
+.userName{
+    font-size: 2em;
+}
+.userFollow{
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+
+}
+.repo{
+    font-size: 1.5em;
+    text-align: center;
+}
+
+.visitProfile{
+    background-color: rgb(88, 116, 128);
+    width: 80%;
+    height: 7%;
+    font-size: 1.2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    border-radius: 10px;
+    text-decoration: none;
+}
+
+.loader {
+    width: 48px;
+    height: 48px;
+    border: 5px solid #FFF;
+    border-bottom-color: transparent;
+    border-radius: 50%;
+    display: inline-block;
+    box-sizing: border-box;
+    animation: rotation 1s linear infinite;
+    }
+
+    @keyframes rotation {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+    } 
+
+   
